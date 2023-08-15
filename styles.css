@@ -1,0 +1,168 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(255, 255, 255, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+button {
+    padding: 10px 15px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+span {
+    flex: 1;
+    padding-right: 10px;
+    color: #333;
+    font-weight: bold;
+}
+
+.completed {
+    text-decoration: line-through;
+    color: #888;
+}
+
+button.delete-button {
+    padding: 5px 10px;
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+button.delete-button:hover {
+    background-color: #c82333;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    background-color: #f4f4f4;
+}
+
+
+h1 {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    color: rgb(0, 0, 0);
+    margin-bottom: 20px;
+}
+
+input[type="text"], button {
+    background-color: rgba(0, 0, 0, 0.8);
+    border: 1px solid rgb(255, 255, 255);
+    margin-bottom: 10px;
+}
+
+button {
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+    width: 100%;
+}
+
+button:hover {
+    background-color: #a09e9e;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    width: 100%;
+}
+
+li {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: rgba(255, 255, 255, 0.7);
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    width: 100%;
+}
+
+input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+span {
+    flex: 1;
+    padding-right: 10px;
+    color: #333;
+    font-weight: bold;
+}
+
+.completed {
+    text-decoration: line-through;
+    color: #888;
+}
+
+button.delete-button {
+    padding: 5px 10px;
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+button.delete-button:hover {
+    background-color: #c82333;
+}
